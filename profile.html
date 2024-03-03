@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e16dc09cd2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="logo.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="notification.png" alt="notification icon"></li>
+                <li><img src="inbox.png" alt="notification icon"></li>
+                <li><img src="video.png" alt="notification icon"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="profile-pic.png">
+            </div>
+        </div>
+
+        <div class="settings-menu">
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="profile-pic.png">
+                    <div>
+                        <p>Assay Poulose</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!-- Profile Page-->
+
+    <div class="profile-container">
+        <img src="cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="profile-pic.png" class="pd-image">
+                    <div>
+                        <h3>Assay Poulose</h3>
+                        <p>228 Friends - 48 mutual</p>
+                        <img src="member-1.png">
+                        <img src="member-2.png">
+                        <img src="member-3.png">
+                        <img src="member-4.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="add-friends.png"> Friend</button>
+                <button type="button"><img src="message.png"> Message</button>
+                <br>
+                <a href=""><img src="more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Focus on your goals and keep saying it in your mind as a mantra...<img src="feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="profile-job.png"> Freelancer - Web Developer</li>
+                        <li><img src="profile-job.png"> Work-study on Full-stack development at Guvi.com</li>
+                        <li><img src="profile-study.png"> Studied at Riga Technical University</li>
+                        <li><img src="profile-study.png"> Went to NIET Coimbatore</li>
+                        <li><img src="profile-home.png"> Lives in Dusseldorf, Germany</li>
+                        <li><img src="profile-location.png"> From Kerala, India</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="IMG_1138.png"></div>
+                        <div><img src="photo1.png"></div>
+                        <div><img src="photo2.png"></div>
+                        <div><img src="photo4.png"></div>
+                        <div><img src="photo5.png"></div>
+                        <div><img src="photo6.png"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>228 (48 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="member-1.png"><p>Azalea Poulose</p></div>
+                        <div><img src="member-2.png"><p>Sooraj Babu</p></div>
+                        <div><img src="member-3.png"><p>Alisha Poulose</p></div>
+                        <div><img src="member-4.png"><p>Aswin Babu</p></div>
+                        <div><img src="member-5.png"><p>Don Bos Co</p></div>
+                        <div><img src="member-6.png"><p>Ayisha R</p></div>
+                        <div><img src="member-7.png"><p>Basil John</p></div>
+                        <div><img src="member-8.png"><p>Tina Rose</p></div>
+                        <div><img src="member-9.png"><p>Jubin V R</p></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div>
+                            <p>Assay Poulose</p>
+                            <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Assay?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="live-video.png">Live Video</a>
+                            <a href="#"><img src="photo.png">Photo/Video</a>
+                            <a href="#"><img src="feeling.png">Feeling Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png">
+                            <div>
+                                <p>Assay Poulose</p>
+                                <span>July 16 2024, 10:30 am </span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">Subscribe <span>@Development Tutorials</span> YouTube Channel to watch more videos on Website Development and UI Designs. <a href="#"> #DevelopmentTutorials</a> <a href="#"> #YouTubeChannel</a></p>
+                    <img src="feed-image-1.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png">105</div>
+                            <div><img src="comments.png">20</div>
+                            <div><img src="share.png">17</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png">
+                            <div>
+                                <p>Assay Poulose</p>
+                                <span>July 16 2024, 09:30 am </span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">Like and share with friends, tag <span>@Development Tutorials</span> SocialConnect page on your post. Ask your doubts in the comments. <a href="#"> #DevelopmentTutorials</a> <a href="#"> #YouTubeChannel</a></p>
+                    <img src="feed-image-2.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like.png">258</div>
+                            <div><img src="comments.png">40</div>
+                            <div><img src="share.png">82</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png">
+                            <div>
+                                <p>Assay Poulose</p>
+                                <span>July 16 2024, 09:22 am </span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">Live session on HTML doubts <span>@Development Tutorials</span> Join the link. <a href="#"> #DevelopmentTutorials</a> <a href="#"> #YouTubeChannel</a></p>
+                    <img src="feed-image-3.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like.png">128</div>
+                            <div><img src="comments.png">90</div>
+                            <div><img src="share.png">52</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png">
+                            <div>
+                                <p>Assay Poulose</p>
+                                <span>July 16 2024, 09:05 am </span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">More Information on new CSS edits <span>@Development Tutorials</span> Subscribe to my channel. <a href="#"> #DevelopmentTutorials</a> <a href="#"> #YouTubeChannel</a></p>
+                    <img src="feed-image-4.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like.png">158</div>
+                            <div><img src="comments.png">50</div>
+                            <div><img src="share.png">22</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="profile-pic.png">
+                            <div>
+                                <p>Assay Poulose</p>
+                                <span>July 16 2024, 08:57 am </span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">Checkout new tutorial video here <span>@Development Tutorials</span> Click the link to follow. <a href="#"> #DevelopmentTutorials</a> <a href="#"> #YouTubeChannel</a></p>
+                    <img src="feed-image-5.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like.png">208</div>
+                            <div><img src="comments.png">80</div>
+                            <div><img src="share.png">72</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2024 - Development Tutorial YouTube Channel</p>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
